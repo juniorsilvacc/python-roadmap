@@ -36,22 +36,20 @@ Este repositório contém meus estudos, anotações e exercícios em Python. O o
 ```
 estudos-python/
 │
+├── introducao/
+│ └── primeiro_programa.py
+│
 ├── sintaxe_estrutura_python/
-│ ├── estrutura_programa.py
-│ ├── importancia_indentacao.py
-│ └── ...
+│ ├── iniciando.py
+│ ├── avancando_sintaxe.py
+│ └── exercicios.py
 │
 ├── tipos_dados_simples/
 │ ├── numeros_inteiros.py
-│ ├── operacoes_basicas.py
+│ ├── conhecendo_floats.py
 │ └── ...
 │
-├── strings/
-│ ├── criando_manipulando_texto.py
-│ ├── indexacao.py
-│ └── ...
-│
-├── projetos_praticos/
+├── resumos/
 │ └── ...
 │
 ├── README.md
@@ -72,6 +70,6 @@ Este repositório está em constante atualização conforme avanço nos estudos.
 Caso queira trocar ideia ou contribuir:
 
 - GitHub: [@juniorsilvacc](https://github.com/juniorsilvacc)
-- LinkedIn: [linkedin.com/in/seuperfil](https://www.linkedin.com/in/juniiorsilvadev/)
+- LinkedIn: [linkedin.com/in/juniiorsilvadev](https://www.linkedin.com/in/juniiorsilvadev/)
 
 🧠 *“Aprender é a única coisa que a mente nunca se cansa, nunca tem medo e nunca se arrepende.” – Leonardo da Vinci*
