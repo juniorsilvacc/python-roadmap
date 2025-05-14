@@ -20,27 +20,38 @@ Este repositório contém meus estudos, anotações e exercícios em Python. O o
 - ✅ Módulos e pacotes
 - ✅ Orientação a Objetos (POO)
 - ✅ Trabalhando com arquivos
-- ✅ Projetos e desafios
-- ✅ Bibliotecas úteis (Ex: `datetime`, `random`, `os`, `math`)
+- ✅ Bibliotecas úteis (`datetime`, `random`, `os`, `math`)
+- ✅ Visualização de dados (`plotly`, `matplotlib`, `seaborn`)
+- ✅ Manipulação de dados (`numpy`, `pandas`)
+- ✅ Expressões regulares
+- ✅ Manipulação de datas e horas
+- ✅ Geradores e iteradores
+- ✅ Decorators
+- ✅ Tratamento de erros
+- ✅ Frameworks (`Django`, `FastAPI`)
+- ✅ Pequenos projetos de aprendizado
 
 ## 📁 Estrutura do repositório
 
 ```
 estudos-python/
 │
-├── fundamentos/
-│ ├── tipos_dados.py
-│ ├── condicionais.py
+├── sintaxe_estrutura_python/
+│ ├── estrutura_programa.py
+│ ├── importancia_indentacao.py
 │ └── ...
 │
-├── poo/
-│ ├── classes_objetos.py
-│ ├── heranca.py
+├── tipos_dados_simples/
+│ ├── numeros_inteiros.py
+│ ├── operacoes_basicas.py
 │ └── ...
 │
-├── projetos/
-│ ├── calculadora.py
-│ ├── jogo_adivinhacao.py
+├── strings/
+│ ├── criando_manipulando_texto.py
+│ ├── indexacao.py
+│ └── ...
+│
+├── projetos_praticos/
 │ └── ...
 │
 ├── README.md
