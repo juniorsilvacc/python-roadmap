@@ -36,3 +36,31 @@ print("Resto: ", resto)
 contador = 1
 contador += 10
 print(contador)
+
+# Float
+temperatura = 39.8
+print("Temperatura: ", temperatura)
+print(type(temperatura))
+
+y = 3.3
+x = 4.1
+print(y + x)
+
+# Arredondar 
+numero = 2.61231
+num_arredondar = round(numero, 2)
+print(num_arredondar)
+
+# Biblioteca math
+import math
+
+valor = 8.6
+
+valor_acima = math.ceil(valor)
+valor_abaixo = math.floor(valor)
+
+print(f'Valor acima {valor_acima} - Valor abaixo {valor_abaixo}')
+
+# Ponto flutuante
+ponto_decimal = 0.2 + 0.3
+print(f"Ponto decimal: {ponto_decimal:.2f}")
