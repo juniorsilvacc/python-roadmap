@@ -21,3 +21,12 @@ print(dados_separados.split(','))
 # Acessando valor em lista
 palavras_lista = ['Oi', 'Boa', 'Noite']
 print(palavras_lista[1])
+
+# Join
+palavras = ["Python", "é", "Incrível"]
+print(" ".join((palavras)))
+print(",".join((palavras)))
+
+
+num = [1, 2, 3]
+print("".join(str(num)))

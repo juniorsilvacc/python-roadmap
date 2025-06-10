@@ -16,14 +16,12 @@ def conversor_temperaturas():
         print("Obrigado por utilizar o conversor!")
     else:
         print("Opçãoo inválida. Digite 1, 2 ou 3.")
-        
+
+# Serve para indicar o ponto de entrada principal do seu programa.
 if __name__ == '__main__':
     conversor_temperaturas()
-    
-# Esse bloco é usado para executar um código apenas quando o arquivo for executado diretamente,
-# ou seja, quando o arquivo contiver o if __name__ == '__main__':
 
-# Tudo que estiver fora do if __name__ == '__main__': pode ser importado e usado normalmente em outros arquivos.
+# Esse bloco é usado para executar o código apenas quando o arquivo for executado diretamente.
+# Ou seja, tudo que estiver dentro do if será executado nesse caso.
 
-# MAS o código principal de execução (como menus ou chamadas de funções) deve estar dentro do __main__,
-# pois esse será o arquivo principal e só serão executadas as funções chamadas dentro desse bloco.
+# Este arquivo é o principal, responsável por chamar as funções importadas de outros arquivos.
