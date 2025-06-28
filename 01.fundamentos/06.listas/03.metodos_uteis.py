@@ -7,6 +7,6 @@ print(frutas.index("maça"))
 print(frutas.index("melancia"))
 print(frutas.index("morango"))
 
-# Limpar listar
+# Limpar todos os elementos da lista
 frutas.clear()
 print(frutas)

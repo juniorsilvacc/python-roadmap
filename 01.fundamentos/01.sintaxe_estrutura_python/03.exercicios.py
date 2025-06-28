@@ -1,4 +1,5 @@
 from datetime import datetime
+
 # EXERCÍCIO 01
 print("Olá, Mundo!")
 
