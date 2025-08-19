@@ -22,3 +22,8 @@ print(animais)
 animais.pop()
 print(animais)
 
+filmes = ['As branquelas', 'Se bebre não case I', 'Se bebre não case II', 'Se bebre não case III']
+filmesCopy = filmes.copy()
+filmesCopy.remove('As branquelas')
+print(filmesCopy)
+
