@@ -1,5 +1,7 @@
 # Classe
 class Game:
+    total_games = 0 # Variável de classe para contar o número total de jogos
+
     # Construtor com atributos passado por parametro
     def __init__(self, name = "", yearLaunch = 0, multiplayer = 0, note = 0):
         self.name = name
@@ -38,3 +40,7 @@ game2.technical_sheet()
 game1.evaluate(9.0)
 game1.evaluate(10.0)
 game1.average()
+
+
+# Exibindo o número total de jogos criados
+print(f"\nTotal de jogos criados: {Game.total_games}")

@@ -1,5 +1,7 @@
-# Classe
+# Classe Pai (Superclasse) - Generalista
 class Game:
+    total_games = 0 # Variável de classe para contar o número total de jogos
+
     # Construtor com atributos passado por parametro
     def __init__(self, name = "", yearLaunch = 0, multiplayer = 0, note = 0):
         self.name = name
@@ -27,14 +29,18 @@ class Game:
     def average(self):
         print(f"Média do filme {self.name}: {self.totalEvaluation / self.evaluators}")
 
-# Objeto sendo instanciado
-game1 = Game("Elden Ring", 2021, False, 10.0)
-game2 = Game("Fortnite", 2017, True, 95.0)
+# Classe derivada (Subclasse) - Especializada
+class SinglePlayerGame(Game):
+    def __init__(self, name="", yearLaunch=0, note=0, storyLine=""):
+        super().__init__(name, yearLaunch, multiplayer=False, note=note)
+        self.storyLine = storyLine
+    
+    def technical_sheet(self):
+        super().technical_sheet()
+        print(f"Enredo: {self.storyLine}\n")
 
-# Método sendo chamado
-game1.technical_sheet()
-game2.technical_sheet()
+mult_game = Game("Fortnite", 2017, True, 9.5)
+mult_game.technical_sheet()
 
-game1.evaluate(9.0)
-game1.evaluate(10.0)
-game1.average()
+sing_game = SinglePlayerGame("Elden Ring", 2022, 10.0, "Elden Ring é um jogo eletrônico de RPG de ação em terceira pessoa.")
+sing_game.technical_sheet()
