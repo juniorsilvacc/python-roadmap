@@ -15,11 +15,18 @@ biblioteca_shopping = Biblioteca("Biblioteca do Shopping")
 # biblioteca_shopping.receber_avaliacao("Cícero Júnior", 7.0)
 
 livro1 = Livro("1984", "Georgffe Orwell", 30.0, "012-3245")
+livro2 = Livro("2020", "Engenharia de Software", 120.0, "321-4552")
 revista1 = Revista("National Geographic", "John Doe", 15.0, "Quinta")
 
+biblioteca_cidade.adicionar_item(livro1)
+biblioteca_cidade.adicionar_item(livro2)
+biblioteca_cidade.adicionar_item(revista1)
+
+livro1.aplicar_desconto()
+livro2.aplicar_desconto()
+
 def main():
-    Biblioteca.listar_bibliotecas()
-    print(vars(livro1))
-    print(vars(revista1))
+    # Biblioteca.listar_bibliotecas()
+    biblioteca_cidade.exibir_itens()
 if __name__ == "__main__":
     main()
